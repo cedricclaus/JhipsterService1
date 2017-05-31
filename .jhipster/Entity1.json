@@ -1,0 +1,40 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "5",
+            "fieldValidateRulesMaxlength": "20"
+        },
+        {
+            "fieldName": "size",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "releaseDate",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "ReleaseType",
+            "fieldValues": "beta,rc,release",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "dto": "no",
+    "service": "serviceClass",
+    "entityTableName": "entity1",
+    "pagination": "pagination",
+    "microserviceName": "service1",
+    "searchEngine": false
+}

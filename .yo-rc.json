@@ -1,0 +1,34 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "be.cite.jhipster"
+    },
+    "jhipsterVersion": "4.5.2",
+    "baseName": "service1",
+    "packageName": "be.cite.jhipster",
+    "packageFolder": "be/cite/jhipster",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "d06abf1c30475580d1a1fbf1235560b49a20f1ba",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "clientPackageManager": "yarn"
+  }
+}
